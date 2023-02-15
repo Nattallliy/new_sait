@@ -1,0 +1,226 @@
+@import "./reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body{
+    color: #9932CC;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+.container {
+    max-width: 1230px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+
+.title-1{
+    font-size: 34px;
+    font-weight: 600;
+    
+}
+
+
+.btn {
+    display: inline-block;
+    padding: 7px 22px; /*отступы в кнопке от текста*/
+    background-color: #9932CC;
+    border-radius: 30px; /*радиус округления кнопки*/
+
+    font-size: 18px; /*цвет втекста внутри кнопки и размер*/
+    color: aliceblue;
+
+    transition: background-color 0.2s ease-in, top 0.2s ease-in;
+}
+
+.btn:hover, .btn:focus{
+    background-color: #a850d3;
+}
+
+.btn:active {
+    position: relative;
+    top: 1px;
+    background-color: #9932CC;
+}
+
+/* header шапка*/
+
+.header {
+    padding-top: 46px;
+    background-color: aliceblue; /* фон*/
+}
+
+.header-nav {
+    display: flex; /* в один ряд*/
+    justify-content: space-between; /*расстановка одного за другим*/
+    align-items: flex-end; /*выравнивание по нижнему краю вертикальное*/
+
+    margin-bottom: 76px;
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 32px;
+    color: aliceblue;
+}
+/*............ГЛАВНАЯ.........................*/
+
+/*Nav навигация*/
+
+.nav-list {
+    display: flex;
+    column-gap: 50px; /*отступы между кнопками меню*/
+    font-weight: 500; /*толщина букв*/
+    font-size: 14px; /*размер букв*/
+    
+
+}
+
+.nav-list a:hover {
+    color: #FF00FF;
+    transition: all .07s ease-in-out;
+}
+
+.nav-link {
+    color: #9932CC;
+}
+
+/*
+.nav-link.active {
+    color: #FF00FF;
+}
+
+/*header content*/
+
+.header-row {
+    display: flex; /*выровнять эл-ты в ряд*/ justify-content: space-between;/* раскидать по сторонам*/
+    column-gap: 30px; /*отступ между колонками*/
+
+}
+
+/*заголовок и подзаголовок*/
+
+.header-content {
+    margin-top: 124px; /*отступ сверху*/
+    max-width: 500px;
+
+}
+
+.header-heading {
+    margin-bottom: 20px; /*отступ снизу*/
+    font-weight: 600;
+    font-size: 44px;
+
+}
+
+.header-content p {
+    line-height: 2;
+
+}
+
+
+
+/*............ABOUT_US.........................*/
+
+/*PORFOLIO*/
+
+.portfolio {
+    padding: 90px 0;
+    background-color: aliceblue;
+}
+
+
+.portfolio-title {
+    margin-bottom: 70px;
+    text-align: center;
+    
+}
+
+.project {}
+
+.project-img {
+    float: right;
+    position: relative;
+    top: -150px;
+    width: 300px;  
+
+}
+
+.project-title {
+    font-size: 18px;
+}
+
+.project-title a {
+    color: #9932CC;
+    text-decoration: underline;
+    
+}
+
+.project-title a:hover {
+    color: #FF00FF;
+    transition: all .07s ease-in-out;
+}
+
+
+
+
+
+/*...........FOTO.........................*/
+
+
+
+
+
+
+
+
+
+
+
+/*............VIDEO.........................*/
+
+ 
+
+/*............CONTACTS.........................*/
+
+/* Контакты*/
+
+.contacts {
+    padding: 90px 0;
+    text-align: center; /*расположение текста по центру*/
+}
+
+.contacts-content {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    font-size: 18px;
+    text-align: center;
+
+}
+
+.contacts-content p {
+    text-align: center;
+}
+
+.contacts-title {
+    
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.contacts-button {
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.contacts-social {
+    display: flex; /*иконки в один ряд*/
+    justify-content: center;
+    align-items: center; /*если у иконок разная высота по вертикали они тоже были по центру отн-но др др*/
+    column-gap: 60px; /*расстояние между иконками*/
+    margin-bottom: 40px;
+}
+
+.contacts-footer {
+    text-align: center;
+}
